@@ -1,0 +1,36 @@
+@import "variables";
+
+
+body{
+    display: grid;
+    background-color: $color;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "aside titulo nav"
+    "aside parrafo nav"
+    "footer footer footer"
+    
+    ;
+    grid-template-rows: 100px 1fr 1fr 75px; 
+    grid-template-columns: 20% auto 15%;
+}
+
+.aside{
+    grid-area: aside;
+    font-family: $font-family;
+    text-align: center;
+    background-color: $background-color;
+}
+
+.nav{
+    grid-area: nav;
+    font-family: $font-family;
+    text-align: center; 
+    background-color: $background-color;
+}
+
+footer{
+    grid-area: footer;
+    font-family: $font-family;
+}

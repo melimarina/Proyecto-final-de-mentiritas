@@ -1,0 +1,17 @@
+@import "variables";
+
+p{
+    grid-area: parrafo;
+    font-family: $font-family;
+    width: 400px;
+    height: 200px;
+    padding: auto;
+    text-align: center;
+    color: blueviolet;
+    background-image: url(https://www.freepik.es/vector-gratis/fondo-mariposas-volando-diseno-plano_4058915.htm#page=1&query=mariposas&position=3);
+}
+
+h1{
+    grid-area: titulo;
+    text-align: center;
+}

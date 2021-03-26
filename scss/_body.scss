@@ -7,8 +7,8 @@ body{
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "header header header"
-    "aside titulo nav"
-    "aside parrafo nav"
+    "main titulo nav"
+    "main parrafo nav"
     "footer footer footer"
     
     ;
@@ -16,8 +16,8 @@ body{
     grid-template-columns: 20% auto 15%;
 }
 
-.aside{
-    grid-area: aside;
+.main{
+    grid-area: main;
     font-family: $font-family;
     text-align: center;
     background-color: $background-color;
